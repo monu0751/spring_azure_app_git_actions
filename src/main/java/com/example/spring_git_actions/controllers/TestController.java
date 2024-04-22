@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping
     public String test() {
-        return "Code deployed on Azure web app using GitHub Actions!";
+        return "Code deployed on Azure web app using GitHub Actions 1!";
     }
 }
